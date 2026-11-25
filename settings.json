@@ -1,0 +1,50 @@
+{
+  "SettingsVersion": 1.2,
+  "SimMode": "Multirotor",
+  "ClockSpeed": 1,
+  "ViewMode": "SpringArmChase",
+  "Vehicles": {
+    "Drone1": {
+      "VehicleType": "SimpleFlight",
+      "AutoCreate": true,
+      "X": 0, "Y": 0, "Z": 0,
+      "Cameras": {
+        "0": {
+          "CaptureSettings": [
+            {
+              "ImageType": 0,
+              "Width": 256,
+              "Height": 256,
+              "FOV_Degrees": 90
+              },
+             {
+               "ImageType": 2,
+               "Width": 256,
+               "Height": 256,
+               "FOV_Degrees": 90
+            }
+          ],
+          "X": 0.5, "Y": 0, "Z": -0.1,
+          "Pitch": 0, "Roll": 0, "Yaw": 0
+        }
+      },
+      "Sensors": {
+        "LidarSensor1": {
+          "SensorType": 6,
+          "Enabled": true,
+          "NumberOfChannels": 16,
+          "RotationsPerSecond": 10,
+          "PointsPerSecond": 100000,
+          "X": 0.5, "Y": 0, "Z": -0.1,
+          "Roll": 0, "Pitch": 0, "Yaw": 0,
+          "VerticalFOVUpper": 20,
+          "VerticalFOVLower": -20,
+          "HorizontalFOVStart": -90,
+          "HorizontalFOVEnd": 90,
+          "DrawDebugPoints": false,
+          "DataFrame": "SensorLocalFrame"
+        }
+      }
+    }
+  }
+}
