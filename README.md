@@ -4,7 +4,7 @@ Autonomous quadcopter that localises itself, maps its surroundings and avoids ob
 
 Additional project at IIIT Sri City: *Adaptive Mobile IoT Networks Using UAV-Assisted Weighted Federated Learning, Multi-Sensor SLAM, and Edge AI for Disaster Management*.
 
-**Team:** Mukunth Parthasarathy, Mithun Vijay, Koda Adam, Sharath C
+**Team:** Koda Adam,  Mukunth Parthasarathy, Mithun Vijay, Sharath C
 **Mentors:** Dr. Raja Vara Prasad, Dr. Pavan Kumar BN
 
 ## Status
